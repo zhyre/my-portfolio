@@ -4,11 +4,11 @@ const projectsData = {
         title: 'SOAR — Student Organization Activity Resource',
         category: 'Web Application · Django System',
         description: 'A web-based system designed to help students of Cebu Institute of Technology-University organizations efficiently plan, manage, and document activities while centralizing resources and approvals in one platform.',
-        logo: 'images/SOAR_logo.png',
+        logo: './images/SOAR_logo.png',
         purpose: 'To create a centralized and user-friendly web system that streamlines student organization activity management, resource tracking, and documentation while improving coordination between officers, members, and administrators.',
         how: 'Designed and developed a Django-based web application with role-based access control. Implemented structured workflows for activity creation, approval, and resource management. Focused on clear information architecture, intuitive navigation, and responsive layouts to ensure ease of use across devices.',
         why: 'Student organizations often rely on scattered tools and manual processes, leading to miscommunication, lost records, and inefficient coordination. SOAR addresses these challenges by providing a single, organized platform that simplifies activity planning and improves transparency.',
-        when: 'Q3 2025',
+        when: 'Q3 202',
         details: 'SOAR is a school-based web system built to support student organizations in managing activities and shared resources. The platform allows organizations to submit activity proposals, upload related documents, track approvals, and maintain organized records. The system improves efficiency, reduces manual paperwork, and enhances collaboration among stakeholders. Built as the lead developer with 2 other students from Cebu Institute of Technology-University.',
         technologies: ['Django', 'Python', 'HTML / CSS', 'Tailwind CSS', 'JavaScript', 'PostgreSQL', 'Supabase', 'Render'],
         links: [
