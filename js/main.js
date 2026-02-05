@@ -119,3 +119,23 @@ if (heroTitle) {
 
     setTimeout(typeWriter, 500);
 }
+
+// Scroll Indicator Visibility
+function updateScrollIndicator() {
+    const scrollIndicator = document.getElementById('scrollIndicator');
+    if (!scrollIndicator) return;
+
+    const heroSection = document.querySelector('.hero');
+    const heroRect = heroSection.getBoundingClientRect();
+
+    // Hide indicator if hero section is no longer in view or scrolled significantly
+    if (heroRect.bottom <= window.innerHeight * 0.5 || window.scrollY > 200) {
+        scrollIndicator.classList.add('hidden');
+    } else {
+        scrollIndicator.classList.remove('hidden');
+    }
+}
+
+// Initialize on load and add scroll listener
+window.addEventListener('load', updateScrollIndicator);
+window.addEventListener('scroll', updateScrollIndicator);
